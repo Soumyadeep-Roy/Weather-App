@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<title>Weather App</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="box">
+    <div class="info-box">
+    <div class="search-box">
+        <input class="inputvalue" type="text" placeholder="Enter a city name...">
+        <button type="button" class="btn">Search</button>
+    </div>
+    <div class="info-box2">
+    <p id="location"></p>
+    <p id="temperature"></p>
+    <div id="icon_div"> 
+    <img id="icon" src="http://openweathermap.org/img/wn/${icon}.png" alt="Loading..."/> <h2 id="description"></h2>
+    </div>
+    <p id="humidity"></p>
+    <p id="wind-speed"></p>
+    <p id="visibility"></p>
+    </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

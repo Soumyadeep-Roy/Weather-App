@@ -1,0 +1,95 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url("/Images/hills.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.info-box {
+    height: 350px;
+    width: 360px;
+    margin-top: 200px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.3px);
+    -webkit-backdrop-filter: blur(2.3px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.search-box {
+   margin-top: 20px;
+   text-align: center;
+}
+
+.inputvalue {
+    padding-left: 10px;
+    width: 220px;
+    height: 30px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.btn {
+    width: 70px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 16px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.btn:hover {
+    opacity: 0.6;
+}
+
+.info-box2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    flex-direction: column;
+}
+
+#location {
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+#temperature {
+    font-size: 40px;
+    margin-top: 25px;
+}
+
+#icon_div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 25px;
+}
+
+
+  
