@@ -1,4 +1,4 @@
-const apikey = 'Enter your Your API key';
+const apikey = 'b0f4e8d7a34c3bff1bc04548ecaa9304';
 let searchbutton = document.querySelector('.btn');
 
 searchbutton.addEventListener('click', (e) => {
@@ -12,7 +12,7 @@ searchbutton.addEventListener('click', (e) => {
 });
 
 function fetchweather(cityname) {
-  fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityname}&units=metric&appid=${apikey}`)
+  fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityname}&units=metric&appid=$b0f4e8d7a34c3bff1bc04548ecaa9304`)
   .then(response => response.json())
   .then(data => {
     display(data);
